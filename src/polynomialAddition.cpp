@@ -111,7 +111,7 @@ int main() {
     p2.print();
     cout << "The sum of the two polynomials is" << endl;
     PolynomialAddition p3 = p1+p2;
-    output.print();
+    p3.print();
     return 0;
 
 }
