@@ -84,23 +84,6 @@ PolynomialAddition operator+(PolynomialAddition p1,PolynomialAddition p2){
 
 int main() {
     PolynomialAddition p1,p2;
-    
-    p1.addTerm(1,2);
-    p1.addTerm(2,1);
-    p1.addTerm(3,0);
-
-    p2.addTerm(1,2);
-    p2.addTerm(2,1);
-    p2.addTerm(3,0);
-    cout<<"The first polynomial is"<<endl;
-    p1.print();
-    cout<<"The second polynomial is"<<endl;
-    p2.print();
-    cout << "The sum of the two polynomials is" << endl;
-    PolynomialAddition output = p1+p2;
-    output.print();
-    return 0;
-    exit(0);
     cout << "Enter the number of terms in the first polynomial" << endl;
     int n;
     cin>>n;
